@@ -2,7 +2,7 @@
 
 IDE:Arduino sketch
 
-언어: C
+언어: C/
 
 참여인원: 4
 
