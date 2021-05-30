@@ -8,12 +8,8 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-
-
 #define RELAY1  8 //쿨링2
 #define RELAY2  10 //히팅1
-
-
 
 DHT dht(DHTPIN,DHTTYPE);
 LiquidCrystal_I2C lcd(0x27, 16, 2);
@@ -63,8 +59,6 @@ void loop(){
   
   int myhum = my_blue.parseInt();
   int mytemp = my_blue.parseInt();
-
-
 
 
   if ((humi >= myhum) && (temp >= mytemp)){
@@ -137,7 +131,6 @@ void loop(){
       digitalWrite(RELAY2,LOW);
 
       
-      
       lcd.setCursor(0,0);
       lcd.print("Temperature: ");
       lcd.print(temp);
@@ -147,8 +140,7 @@ void loop(){
       delay(1000);
     }
     delay(1000);
-    
-
+   
 
   Serial.print("Temperate : ");
   Serial.println(temp,1);
@@ -167,6 +159,5 @@ void loop(){
   my_blue.println(humi);
   // 페어링된 기계(여기서는 휴대폰)에 데이터를 출력시킨다.
   // 데이터는 0.5초마다 출력된다.
-
 
 }
