@@ -50,10 +50,10 @@ void setup(){
 
 
 void loop(){
-
-
+  
   float temp = my_sensor.readTemperature();
-  // 온습도계 객체인 my_sensor 가 측정한 온도값을 readTemperature() 함수로 불러와 temp 라는 변수에 저장한다.
+  // 온습도계 객체인 my_sensor 가 측정한 온도값을 
+  // readTemperature() 함수로 불러와 temp 라는 변수에 저장한다.
   float humi = my_sensor.readHumidity();
   // 온습도계 객체인 my_sensor 가 측정한 습도값을 readHumid
   
