@@ -1,6 +1,6 @@
 # 버섯자동재배 IoT 프로젝트
 
-![image.jpg2](https://user-images.githubusercontent.com/83914919/230719616-cc3f4bcb-d8f6-4f9a-b2fa-09b38e47aa2c.png) | ![image.jpg1](https://user-images.githubusercontent.com/83914919/230720675-2c7ff1fe-bd3b-42ff-a451-41049791d87a.png)
+![image.jpg2](https://user-images.githubusercontent.com/83914919/230719616-cc3f4bcb-d8f6-4f9a-b2fa-09b38e47aa2c.png) | ![image.jpg1](https://user-images.githubusercontent.com/83914919/230720943-c1fa9811-ef9b-4e75-8054-be0045156e70.png)
 <br/>
 앱의 화면
 <br/>
