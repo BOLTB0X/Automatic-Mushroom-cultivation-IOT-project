@@ -1,6 +1,13 @@
 # 버섯자동재배 IoT 프로젝트
 
-![image.jpg1](https://user-images.githubusercontent.com/83914919/230719608-bb4aceb0-ed11-4007-8d89-380493421a2c.png) |![image.jpg2](https://user-images.githubusercontent.com/83914919/230719616-cc3f4bcb-d8f6-4f9a-b2fa-09b38e47aa2c.png)
+![image.jpg2](https://user-images.githubusercontent.com/83914919/230719616-cc3f4bcb-d8f6-4f9a-b2fa-09b38e47aa2c.png) | ![image.jpg1](https://user-images.githubusercontent.com/83914919/230720675-2c7ff1fe-bd3b-42ff-a451-41049791d87a.png)
+<br/>
+앱의 화면
+<br/>
+
+![image.jpg1](https://user-images.githubusercontent.com/83914919/230719608-bb4aceb0-ed11-4007-8d89-380493421a2c.png)
+<br/>
+실제 외관
 <br/>
 
 ## 프로젝트 정보
@@ -32,5 +39,6 @@
 
 ![KakaoTalk_Video_2023-04-08-21-01-55](https://user-images.githubusercontent.com/83914919/230720362-8c7563a5-1f4d-4c2e-8bb6-dd0edb9b926c.gif) | ![KakaoTalk_Video_2023-04-08-21-02-00](https://user-images.githubusercontent.com/83914919/230720427-4381850e-34f8-45c7-b0c3-3a84245cb9aa.gif)
 
-[소스코드 보기]("")
+[온습도 조절 소스코드 보기](https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/iot_final.ino)
 <br/>
+
