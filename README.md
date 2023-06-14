@@ -21,6 +21,8 @@
   <br/>
 - 나의 역할: 조장, 임베디드 sw파트
   <br/>
+- 주제: 아두이노를 활용하여 앱과 연동되는 버섯재배 박스
+  <br/>
 
 ## 기술스택
 
@@ -38,7 +40,7 @@
 
 ## 작품 시연
 
-![KakaoTalk_Video_2023-04-08-21-01-55](https://user-images.githubusercontent.com/83914919/230720362-8c7563a5-1f4d-4c2e-8bb6-dd0edb9b926c.gif) | ![KakaoTalk_Video_2023-04-08-21-02-00](https://user-images.githubusercontent.com/83914919/230720427-4381850e-34f8-45c7-b0c3-3a84245cb9aa.gif)
+![KakaoTalk_Video_2023-04-08-21-01-55](https://user-images.githubusercontent.com/83914919/230720362-8c7563a5-1f4d-4c2e-8bb6-dd0edb9b926c.gif) ![KakaoTalk_Video_2023-04-08-21-02-00](https://user-images.githubusercontent.com/83914919/230720427-4381850e-34f8-45c7-b0c3-3a84245cb9aa.gif)
 <br/>
 
 ### 진행 과정
@@ -52,6 +54,8 @@
    <br/>
    <img src="https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/video/BLE_연결.gif?raw=true" width="300" height="150"/> <img src="https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/video/BLE_테스트.gif?raw=true" width="300" height="150"/>
    <br>
+
+## 코드
 
 <details><summary>온습도 조절 코드(C)</summary>
 
