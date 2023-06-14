@@ -44,10 +44,12 @@
 ### 진행 과정
 
 1. 펠티어 소자 테스트
+   <br/>
    <img src="https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/video/펠티어소자로%20온습도%20조절.gif?raw=true" width="300" height="150"/> <img src="https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/video/펠티어소자%20테스트-2.gif?raw=true" width="300" height="150"/>
    <br>
 
 2. BLE 테스트
+   <br/>
    <img src="https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/video/BLE_연결.gif?raw=true" width="300" height="150"/> <img src="https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/video/BLE_테스트.gif?raw=true" width="300" height="150"/>
    <br>
 
