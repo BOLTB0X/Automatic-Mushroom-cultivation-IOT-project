@@ -1,10 +1,15 @@
 # 버섯자동재배 IoT 프로젝트
 
-![image.jpg2](https://user-images.githubusercontent.com/83914919/230719616-cc3f4bcb-d8f6-4f9a-b2fa-09b38e47aa2c.png)![image.jpg1](https://user-images.githubusercontent.com/83914919/230720943-c1fa9811-ef9b-4e75-8054-be0045156e70.png)
-<br/>
+<img src="https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/img/앱_초기.png?raw=true" width="150" height="300"/> <img src="https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/img/설정.png?raw=true" width="150" height="300"/>
+<br>
 
-![image.jpg1](https://user-images.githubusercontent.com/83914919/230719608-bb4aceb0-ed11-4007-8d89-380493421a2c.png)
-<br/>
+## 외관
+
+<img src="https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/img/외관.png?raw=true" width="300" height="150"/> <img src="https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/img/외관_뒷면.jpeg?raw=true" width="300" height="150"/>
+<br>
+
+<img src="https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/img/실제%20회로도.jpeg?raw=true" width="300" height="150"/> <img src="https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/img/LCD_온습도_표시.jpeg?raw=true" width="300" height="150"/>
+<br>
 
 ## 프로젝트 정보
 
@@ -28,14 +33,23 @@
 
 ## 기능
 
-<img width="673" alt="스크린샷 2023-04-08 오후 8 57 34" src="https://user-images.githubusercontent.com/83914919/230719875-20179015-04e0-4e1d-9c77-443ad06ac8b6.png">
-
 **_원하는 버섯을 선택하면 그 버섯에 맞는 적절한 온습도를 자동조절~!_**
 <br/>
 
-![KakaoTalk_Video_2023-04-08-21-01-55](https://user-images.githubusercontent.com/83914919/230720362-8c7563a5-1f4d-4c2e-8bb6-dd0edb9b926c.gif) | ![KakaoTalk_Video_2023-04-08-21-02-00](https://user-images.githubusercontent.com/83914919/230720427-4381850e-34f8-45c7-b0c3-3a84245cb9aa.gif)
+## 작품 시연
 
+![KakaoTalk_Video_2023-04-08-21-01-55](https://user-images.githubusercontent.com/83914919/230720362-8c7563a5-1f4d-4c2e-8bb6-dd0edb9b926c.gif) | ![KakaoTalk_Video_2023-04-08-21-02-00](https://user-images.githubusercontent.com/83914919/230720427-4381850e-34f8-45c7-b0c3-3a84245cb9aa.gif)
 <br/>
+
+### 진행 과정
+
+1. 펠티어 소자 테스트
+   <img src="https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/video/펠티어소자로%20온습도%20조절.gif?raw=true" width="300" height="150"/> <img src="https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/video/펠티어소자%20테스트-2.gif?raw=true" width="300" height="150"/>
+   <br>
+
+2. BLE 테스트
+   <img src="https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/video/BLE_연결.gif?raw=true" width="300" height="150"/> <img src="https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/video/BLE_테스트.gif?raw=true" width="300" height="150"/>
+   <br>
 
 <details><summary>온습도 조절 코드(C)</summary>
 
