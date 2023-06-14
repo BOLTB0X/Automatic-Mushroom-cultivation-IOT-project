@@ -1,13 +1,9 @@
 # 버섯자동재배 IoT 프로젝트
 
-![image.jpg2](https://user-images.githubusercontent.com/83914919/230719616-cc3f4bcb-d8f6-4f9a-b2fa-09b38e47aa2c.png) | ![image.jpg1](https://user-images.githubusercontent.com/83914919/230720943-c1fa9811-ef9b-4e75-8054-be0045156e70.png)
-<br/>
-앱의 화면
+![image.jpg2](https://user-images.githubusercontent.com/83914919/230719616-cc3f4bcb-d8f6-4f9a-b2fa-09b38e47aa2c.png)![image.jpg1](https://user-images.githubusercontent.com/83914919/230720943-c1fa9811-ef9b-4e75-8054-be0045156e70.png)
 <br/>
 
 ![image.jpg1](https://user-images.githubusercontent.com/83914919/230719608-bb4aceb0-ed11-4007-8d89-380493421a2c.png)
-<br/>
-실제 외관
 <br/>
 
 ## 프로젝트 정보
@@ -39,6 +35,93 @@
 
 ![KakaoTalk_Video_2023-04-08-21-01-55](https://user-images.githubusercontent.com/83914919/230720362-8c7563a5-1f4d-4c2e-8bb6-dd0edb9b926c.gif) | ![KakaoTalk_Video_2023-04-08-21-02-00](https://user-images.githubusercontent.com/83914919/230720427-4381850e-34f8-45c7-b0c3-3a84245cb9aa.gif)
 
-[온습도 조절 소스코드 보기](https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/iot_final.ino)
 <br/>
 
+<details><summary>온습도 조절 코드(C)</summary>
+
+```cpp
+if ((humi >= myhum) && (temp >= mytemp)){
+      digitalWrite(pump,HIGH);
+      delay(2000);
+      digitalWrite(RELAY1,HIGH);
+      digitalWrite(RELAY2,LOW);
+
+
+      lcd.setCursor(0,0);
+      lcd.print("Temperate: ");
+      lcd.print(temp);
+      lcd.setCursor(0,1);
+      lcd.print("Humidity: ");
+      lcd.print(humi);
+      delay(1000);
+    }
+    else if((humi < myhum)&&(temp >= mytemp)){
+      digitalWrite(pump,LOW);
+      delay(2000);
+      digitalWrite(pump,HIGH);
+      delay(2000);
+      digitalWrite(RELAY1,HIGH);
+      digitalWrite(RELAY2,LOW);
+
+
+      lcd.setCursor(0,0);
+      lcd.print("Temperate: ");
+      lcd.print(temp);
+      lcd.setCursor(0,1);
+      lcd.print("Humidity: ");
+      lcd.print(humi);
+      delay(1000);
+    }
+    else if((humi < myhum)&&(temp < mytemp)){
+      digitalWrite(pump,LOW);
+      delay(2000);
+      digitalWrite(pump,LOW);
+      delay(2000);
+      digitalWrite(RELAY1,LOW);
+      digitalWrite(RELAY2,HIGH);
+
+
+      lcd.setCursor(0,0);
+      lcd.print("Temperate: ");
+      lcd.print(temp);
+      lcd.setCursor(0,1);
+      lcd.print("Humidity: ");
+      lcd.print(humi);
+      delay(1000);
+    }
+    else if((humi >= myhum) && (temp < mytemp)){
+      digitalWrite(pump,HIGH);
+      delay(2000);
+      digitalWrite(RELAY1,LOW);
+      digitalWrite(RELAY2,HIGH);
+
+
+      lcd.setCursor(0,0);
+      lcd.print("Temperate: ");
+      lcd.print(temp);
+      lcd.setCursor(0,1);
+      lcd.print("Humidity: ");
+      lcd.print(humi);
+      delay(1000);
+    }
+    else{
+      digitalWrite(pump,HIGH);
+      digitalWrite(RELAY1,LOW);
+      digitalWrite(RELAY2,LOW);
+
+
+      lcd.setCursor(0,0);
+      lcd.print("Temperature: ");
+      lcd.print(temp);
+      lcd.setCursor(0,1);
+      lcd.print("Humidity: ");
+      lcd.print(humi);
+      delay(1000);
+    }
+    delay(1000);
+```
+
+</details>
+
+[온습도 조절 소스코드 원본](https://github.com/BOLTB0X/Automatic-Mushroom-cultivation-IOT-project/blob/master/iot_final.ino)
+<br/>
